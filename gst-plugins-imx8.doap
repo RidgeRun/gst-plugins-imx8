@@ -1,0 +1,41 @@
+<Project
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns="http://usefulinc.com/ns/doap#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:admin="http://webns.net/mvcb/">
+
+ <name>GStreamer IMX8 Plug-ins</name>
+ <shortname>gst-plugins-imx8</shortname>
+ <homepage rdf:resource="http://gstreamer.freedesktop.org/modules/gst-plugins-imx8.html" />
+ <created>2005-09-06</created>
+ <shortdesc xml:lang="en">
+a set of IMX8 plug-ins under our preferred license, LGPL
+</shortdesc>
+<description xml:lang="en">
+GStreamer IMX8 Plug-ins is a set of plug-ins for the IMX8 based
+embedded platforms under our preferred license (LGPL forthe plug-in
+code, LGPL or LGPL-compatible for the supporting library).
+</description>
+ <category></category>
+ <bug-database rdf:resource="http://bugzilla.gnome.org/enter_bug.cgi?product=GStreamer&amp;component=gst-plugins-imx8" />
+ <screenshots></screenshots>
+ <mailing-list rdf:resource="http://lists.freedesktop.org/mailman/listinfo/gstreamer-devel" />
+ <programming-language>C</programming-language>
+ <license rdf:resource="http://usefulinc.com/doap/licenses/lgpl"/>
+ <download-page rdf:resource="http://gstreamer.freedesktop.org/download/" />
+
+ <repository>
+   <GitRepository>
+     <location rdf:resource="git://anongit.freedesktop.org/gstreamer/gst-plugins-imx8"/>
+     <browse rdf:resource="http://cgit.freedesktop.org/gstreamer/gst-plugins-imx8"/>
+   </GitRepository>
+ </repository>
+
+ <maintainer>
+  <foaf:Person>
+     <foaf:name>Michael Gruner</foaf:name>
+  </foaf:Person>
+ </maintainer>
+
+</Project>
