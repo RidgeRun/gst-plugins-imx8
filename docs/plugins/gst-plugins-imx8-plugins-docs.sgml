@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+<!ENTITY % version-entities SYSTEM "version.entities">
+%version-entities;
+]>
+
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  <bookinfo>
+    <title>GStreamer IMX8 Plugins &GST_API_VERSION; Plugins Reference Manual</title>
+    <releaseinfo>
+      for GStreamer IMX8 Plugins &GST_API_VERSION; (&GST_VERSION;)
+      The latest version of this documentation can be found on-line at
+      <ulink role="online-location" url="http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-imx8/html/">http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-imx8/html/</ulink>.
+    </releaseinfo>
+  </bookinfo>
+
+  <chapter>
+    <title>gst-plugins-imx8 Elements</title>
+<!--    <xi:include href="xml/element-y4menc.xml" /> -->
+  </chapter>
+
+  <chapter>
+    <title>gst-plugins-imx8 Plugins</title>
+<!--    <xi:include href="xml/plugin-1394.xml" /> -->
+  </chapter>
+</book>

@@ -1,0 +1,78 @@
+This is GStreamer gst-plugins-imx8 0.1.0.1
+
+GStreamer IMX8 Plugins 0.1.0 is the initial development version.
+
+The 0.1.0 development series is a newly created project and is part of
+the API and ABI-stable 1.x release series of the GStreamer multimedia
+framework.
+
+Full release notes will one day be found at:
+
+  https://github.com/RidgeRun/gst-plugins-imx8/releases
+
+This module will not be very useful by itself and should be used in conjunction
+with other GStreamer modules for a complete multimedia experience.
+
+ - gstreamer: provides the core GStreamer libraries and some generic plugins
+
+ - gst-plugins-base: a basic set of well-supported plugins and additional
+                     media-specific GStreamer helper libraries for audio,
+                     video, rtsp, rtp, tags, OpenGL, etc.
+
+ - gst-plugins-good: a set of well-supported plugins under our preferred
+                     license
+
+ - gst-plugins-ugly: a set of well-supported plugins which might pose
+                     problems for distributors
+
+ - gst-plugins-bad: a set of plugins of varying quality that have not made
+                    their way into one of core/base/good/ugly yet, for one
+                    reason or another. Many of these are are production quality
+                    elements, but may still be missing documentation or unit
+                    tests; others haven't passed the rigorous quality testing
+                    we expect yet.
+
+ - gst-libav: a set of codecs plugins based on the ffmpeg library. This is
+                    where you can find audio and video decoders and encoders
+                    for a wide variety of formats including H.264, AAC, etc.
+
+ - gstreamer-vaapi: hardware-accelerated video decoding and encoding using
+                    VA-API on Linux. Primarily for Intel graphics hardware.
+
+ - gst-omx: hardware-accelerated video decoding and encoding, primarily for
+                    embedded Linux systems that provide an OpenMax
+                    implementation layer such as the Raspberry Pi.
+
+ - gst-rtsp-server: library to serve files or streaming pipelines via RTSP
+
+ - gst-editing-services: library an plugins for non-linear editing
+
+==== Download ====
+
+You can find source releases of gstreamer in the download
+directory: https://github.com/RidgeRun/gst-plugins-imx8/releases
+
+The git repository and details how to clone it can be found at
+https://github.com/RidgeRun/gst-plugins-imx8.git
+
+==== Homepage ====
+
+The project's website is http://developer.ridgerun.com/wiki/index.php?title=GStreamer_IMX8_Plugins
+
+==== Support and Bugs ====
+
+We use GitHub issue tracker for bug reports and feature requests:
+https://github.com/RidgeRun/gst-plugins-imx8/issues
+
+Please submit patches via pull-requests as well.
+
+For help and support, please subscribe to and send questions to the
+RidgeRun support email (see below for details).
+
+==== Developers ====
+
+GStreamer IMX8 Plugins is stored in Git, hosted at github.com, and can
+be cloned from there (see link above).
+
+Interested developers of the core library, plugins, and applications should
+subscribe to the GitHub project.
